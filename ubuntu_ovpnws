@@ -311,7 +311,6 @@ group nogroup
 client-to-client
 username-as-common-name
 verify-client-cert none
-client-cert-not-required
 script-security 3
 max-clients 1024
 client-connect /etc/openvpn/login/connect.sh
@@ -359,7 +358,6 @@ group nogroup
 client-to-client
 username-as-common-name
 verify-client-cert none
-client-cert-not-required
 script-security 3
 max-clients 1024
 client-connect /etc/openvpn/login/connect.sh
